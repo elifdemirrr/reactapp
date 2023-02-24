@@ -1,16 +1,12 @@
-import User from './components/User';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
  
   return (
-    <div className="App">
-      <h4>App Component</h4>
-      <User/>
-      <User/>
-      <User/>
-      <User/>
-      <User/> 
+    <div className="container">
+      <Navbar/>
+      <hr></hr>
     </div>
     
   );
